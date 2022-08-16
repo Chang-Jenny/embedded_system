@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">110816002_HW3</string>
+    <string name="button">Zero</string>
+    <string name="zerooooo">按一下歸零</string>
+    <string name="topAdd2">↑ +2</string>
+    <string name="BottomDec2">↓ -2</string>
+</resources>
