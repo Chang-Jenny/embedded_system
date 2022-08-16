@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HW2</string>
+    <string name="input1">請輸入姓氏</string>
+    <string name="input2">請輸入名稱</string>
+    <string name="lastName">姓:</string>
+    <string name="firstName">名:</string>
+    <string name="cellphone">電話:</string>
+    <string name="sure">確定</string>
+    <string name="contact_information">Contact Information</string>
+</resources>
