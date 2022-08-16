@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#74412B"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/txvPage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/vertical"
+        android:layout_marginBottom="@dimen/vertical"
+        android:text="@string/activity_3"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnPage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/vertical"
+        android:backgroundTint="#BF9787"
+        android:onClick="goToAct1"
+        android:text="@string/go_to_activity_1" />
+
+    <Button
+        android:id="@+id/btnPage3end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/vertical"
+        android:backgroundTint="#BF9787"
+        android:onClick="back"
+        android:text="@string/endactivity_3" />
+
+    <TextView
+        android:id="@+id/showPage3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/horizontal"
+        android:layout_marginTop="@dimen/vertical"
+        android:layout_marginRight="@dimen/horizontal"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+</LinearLayout>

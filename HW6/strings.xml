@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">110816002_HW6</string>
+    <string name="activity_1">Activity 1</string>
+    <string name="activity_2">Activity 2</string>
+    <string name="activity_3">Activity 3</string>
+    <string name="go_to_activity_2">go to Activity 2</string>
+    <string name="go_to_activity_3">go to Activity 3</string>
+    <string name="go_to_activity_1">go to Activity 1</string>
+    <string name="charArrow">\u279E</string>
+    <string name="endactivity_2">結束 Activity 2</string>
+    <string name="endactivity_3">結束 Activity 3</string>
+    <string name="endactivity_1">結束 Activity 1</string>
+</resources>

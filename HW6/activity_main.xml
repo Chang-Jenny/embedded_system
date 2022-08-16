@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4F728E"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txvPage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/vertical"
+        android:layout_marginBottom="@dimen/vertical"
+        android:text="@string/activity_1"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnPage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/vertical"
+        android:onClick="goToAct2"
+        android:text="@string/go_to_activity_2" />
+
+    <Button
+        android:id="@+id/btnPage1end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/vertical"
+        android:onClick="back"
+        android:text="@string/endactivity_1" />
+
+    <TextView
+        android:id="@+id/showPage1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/horizontal"
+        android:layout_marginTop="@dimen/vertical"
+        android:layout_marginRight="@dimen/horizontal"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+</LinearLayout>
