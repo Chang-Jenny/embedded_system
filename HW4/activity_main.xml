@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txvColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/weight_20"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="@dimen/weight_20"
+        android:gravity="center"
+        android:text="@string/choose_a_color_you_like"
+        android:textSize="28sp" />
+
+    <RadioGroup
+        android:id="@+id/backgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/height_10"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/red" />
+
+        <RadioButton
+            android:id="@+id/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yellow" />
+
+        <RadioButton
+            android:id="@+id/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/green" />
+
+        <RadioButton
+            android:id="@+id/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blue" />
+
+        <RadioButton
+            android:id="@+id/purple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/purple" />
+
+        <RadioButton
+            android:id="@+id/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/white" />
+
+        <RadioButton
+            android:id="@+id/gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gray" />
+
+        <RadioButton
+            android:id="@+id/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/black" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/remind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/weight_20"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="@dimen/weight_20"
+        android:gravity="center"
+        android:text="Ready to order! Please choose 3 or 4 dishes" />
+
+    <TextView
+        android:id="@+id/txvOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/weight_20"
+        android:layout_marginRight="@dimen/weight_20"
+        android:gravity="center"
+        android:text="Buffet"
+        android:textSize="28dp" />
+
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/weight_20"
+        android:layout_marginTop="@dimen/height_10"
+        android:layout_marginRight="@dimen/weight_20"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/order1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/weight_20"
+            android:text="@string/Cabbage" />
+
+        <CheckBox
+            android:id="@+id/order2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/weight_20"
+            android:text="@string/veg" />
+
+        <CheckBox
+            android:id="@+id/order3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/egg" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/L4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/weight_20"
+        android:layout_marginTop="@dimen/height_10"
+        android:layout_marginRight="@dimen/weight_20"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/order4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/weight_20"
+            android:text="@string/tofu" />
+
+        <CheckBox
+            android:id="@+id/order5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/weight_20"
+            android:text="@string/mushroom" />
+
+        <CheckBox
+            android:id="@+id/order6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tomato" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btncheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/height_10"
+        android:backgroundTint="#FF9800"
+        android:onClick="takeOrder"
+        android:text="@string/check" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="@dimen/height_10"
+            android:layout_marginRight="70dp"
+            android:hint="請點餐"
+            android:textSize="20sp" />
+    </ScrollView>
+
+</LinearLayout>

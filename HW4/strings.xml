@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">110816002_HW4</string>
+    <string name="red">紅</string>
+    <string name="yellow">黃</string>
+    <string name="green">綠</string>
+    <string name="blue">藍</string>
+    <string name="purple">紫</string>
+    <string name="white">白</string>
+    <string name="gray">灰</string>
+    <string name="black">黑</string>
+    <string name="Cabbage">高麗菜</string>
+    <string name="veg">地瓜葉</string>
+    <string name="egg">海鮮蒸蛋</string>
+    <string name="tofu">滷豆干</string>
+    <string name="mushroom">杏鮑菇</string>
+    <string name="tomato">番茄炒蛋</string>
+    <string name="check">結帳</string>
+    <string name="choose_a_color_you_like">Choose a color you like</string>
+
+</resources>
