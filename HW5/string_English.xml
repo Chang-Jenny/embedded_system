@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">110816002_HW5</string>
+    <string name="title">Exercise energy consumption computer</string>
+    <string-array name="sports">
+        <item>Exercisewalking</item>
+        <item>Powerwalking or Swimming</item>
+        <item>Running</item>
+        <item>Cycling</item>
+        <item>Badminton</item>
+        <item>Golf</item>
+    </string-array>
+    <string name="textLine1">Consume energy(kcal/kg/hr)：</string>
+    <string name="textLine2">Weight(kg)：</string>
+    <string name="textLine3">Time(hour)：</string>
+    <string name="EgWeight">Eg. 50.2</string>
+    <string name="EgHour">Eg. 1.5</string>
+    <string name="calculate">calculate</string>
+    <string name="energy">Consume energy</string>
+    <string name="remind">Please enter weight and exercise time</string>
+    <string name="check">check</string>
+</resources>

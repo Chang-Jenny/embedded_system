@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">110816002_HW5</string>
+    <string name="title">運動エネルギー消費コンピュータ</string>
+    <string-array name="sports">
+        <item>歩く</item>
+        <item>活発なウォーキングや水泳</item>
+        <item>走る</item>
+        <item>自転車</item>
+        <item>バドミントン</item>
+        <item>ゴルフ</item>
+    </string-array>
+    <string name="textLine1">エネルギー消費量（千カロリー/キログラム/時間)：</string>
+    <string name="textLine2">重さ(キログラム)：</string>
+    <string name="textLine3">スポーツタイム(時間)：</string>
+    <string name="EgWeight">Eg. 50.2</string>
+    <string name="EgHour">Eg. 1.5</string>
+    <string name="calculate">計算する</string>
+    <string name="energy">エネルギーを消費する</string>
+    <string name="remind">体重と運動時間を入力してください</string>
+    <string name="check">check</string>
+</resources>

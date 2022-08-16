@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">110816002_HW5</string>
+    <string name="title">運動能量消耗計算機</string>
+    <string-array name="sports">
+        <item>慢走</item>
+        <item>快走或游泳</item>
+        <item>跑步</item>
+        <item>自行車</item>
+        <item>羽毛球</item>
+        <item>高爾夫</item>
+    </string-array>
+    <string name="textLine1">消耗能量(仟卡/公斤/小時)：</string>
+    <string name="textLine2">輸入體重(公斤)：</string>
+    <string name="textLine3">輸入運動時間(小時)：</string>
+    <string name="EgWeight">Eg. 50.2</string>
+    <string name="EgHour">Eg. 1.5</string>
+    <string name="calculate">計算</string>
+    <string name="energy">消耗能量</string>
+    <string name="remind">請輸入體重及運動時間</string>
+    <string name="check">check</string>
+
+</resources>
